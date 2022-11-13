@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 0.7rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: 10px 0px 15px 20px;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 13px solid #3a3a3a;
+}
+
+.background {
+  background: url("../public/container.svg");
+  background-size: cover;
+  height: 70vh;
+}
