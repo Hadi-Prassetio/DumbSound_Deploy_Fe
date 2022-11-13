@@ -97,7 +97,7 @@ export default function AddProduct() {
               Artist
             </option>
             {artist?.map((item) => (
-              <option value={item.id} className='text-black'>
+              <option key={item.id} value={item.id} className='text-black'>
                 {item.name}
               </option>
             ))}

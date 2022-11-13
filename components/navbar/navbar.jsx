@@ -63,7 +63,7 @@ export default function Navbar({ showLogin, setShowLogin, counter }) {
                   onClose={() => setShowLogin(false)}>
                   <Login />
                   <p className='text-center text-pholder'>
-                    Don't have an Account? klik{" "}
+                    Don&apos;t have an Account? klik{" "}
                     <b className='cursor-pointer' onClick={switchToRegister}>
                       Here
                     </b>
