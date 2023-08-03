@@ -9,7 +9,7 @@ export default function Layout({
   counter,
 }) {
   return (
-    <div className='max-w-screen-2xl'>
+    <div>
       <Head>
         <title>{pageTitle}</title>
         <link rel='icon' href='/logo.svg' />
